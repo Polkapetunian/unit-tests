@@ -1,3 +1,4 @@
 export const filterNumbers = (array, largerThan) => {
-  return array
+  let checkNumber = arrayItem => arrayItem < largerThan;
+  return array.prototype.filter(checkNumber);
 }
